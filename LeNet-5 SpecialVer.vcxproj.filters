@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Atri">
+      <UniqueIdentifier>{ca3659a3-5684-4d8f-856a-f044b7eee1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Atri\Layers">
+      <UniqueIdentifier>{0a3e6562-5e5c-4877-80ab-d8e32b633d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Atri\Model">
+      <UniqueIdentifier>{48513cf7-c5c1-448c-866c-1988ae89d06c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Atri">
+      <UniqueIdentifier>{e54773cc-ef08-465f-ab8c-c37dda654ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Atri\ActivationFunction">
+      <UniqueIdentifier>{a92f3f46-b392-44fc-8ea6-9bf63f130456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Atri\Layers">
+      <UniqueIdentifier>{9522ec62-916f-489c-9ea1-dd77f3a7a99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Atri\Model">
+      <UniqueIdentifier>{c74fa11d-28ad-4f5e-82d1-04aef2216ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Atri\ActivationFunction">
+      <UniqueIdentifier>{9b9a1d0b-e8c0-41ce-a12a-6ae9aad9cab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Atri\Initializer">
+      <UniqueIdentifier>{7769cdbb-86a8-4b55-887a-95d519879e7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Atri\Initializer">
+      <UniqueIdentifier>{1d3f9ab2-fee2-404e-9f21-3c14a1d06274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YukiAtri.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YukiCV.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="YukiDefault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DLObject.cpp">
+      <Filter>源文件\Atri</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationFunctions.cpp">
+      <Filter>源文件\Atri\ActivationFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializers.cpp">
+      <Filter>源文件\Atri\Initializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lenet5.cpp">
+      <Filter>源文件\Atri\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="YukiAtri.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YukiCV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YukiTensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YukiDefault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="YukiMatrixBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DLObject.h">
+      <Filter>头文件\Atri</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerBase.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunctions.h">
+      <Filter>头文件\Atri\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerConv2D.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerLinear.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerMaxPool2D.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerFlatten2D.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerSoftmax.h">
+      <Filter>头文件\Atri\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lenet5.h">
+      <Filter>头文件\Atri\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializers.h">
+      <Filter>头文件\Atri\Initializer</Filter>
+    </ClInclude>
+    <ClInclude Include="YukiCore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="t10k-images.idx3-ubyte">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="t10k-labels.idx1-ubyte">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="train-images.idx3-ubyte">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="train-labels.idx1-ubyte">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
